@@ -1,0 +1,37 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# NuGet (packages are restored from packages.config)
+packages/
+!packages/build/
+!packages/repositories.config
+*.nupkg
+
+# ASP.NET / IIS Express
+App_Data/*.mdf
+App_Data/*.ldf
+*.pdb
+
+# Logs and reports
+*.log
+UpgradeLog*.htm
+UpgradeLog*.XML
+UpgradeLog*.txt
+
+# Local/OS files
+.DS_Store
+Thumbs.db
